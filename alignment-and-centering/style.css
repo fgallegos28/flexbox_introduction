@@ -28,7 +28,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box10 { background:#16a085;}
 
 
-/* We start writing out flexbox here. The above is just page setup */
+/* We start writing out flexbox here. The above is just page setup 
 .container {
   display:flex;
   border:10px solid mistyrose;
@@ -51,4 +51,86 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box9 {
   padding-bottom: 50px;
   align-self:stretch;
+}
+*/
+ /* ** Alignment and Centering with align-items **
+.container {
+  display: flex;
+  justify-content: space-between;
+  border: 10px solid mistyrose;
+  flex-direction: column;
+  min-height: 100vh;
+}*/
+ 
+/*
+.container {
+  display: flex;
+  border: 10px solid mistyrose;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box1 { 
+  font-size: 30px;
+}
+
+.box3 {
+  font-size: 150px;
+}
+
+.box4 {
+  font-size: 200px;
+}
+
+.box5 {
+  font-size: 10px;
+}
+
+.box10{
+  font-size: 77px;
+}*/
+
+
+/*Alignment and Centering with align-content*/
+/*
+.container {
+  display: flex;
+  border: 10px solid mistyrose;
+  height: 100vh;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+
+.box {
+  width: 33.333%;
+}
+*/
+
+/*Alignment and Centering with align-self*/
+.container {
+  display: flex;
+  border: 10px solid mistyrose;
+  height: 100vh;
+  align-items: flex-start;
+}
+
+
+.box {
+  width: 33.333%;
+}
+
+
+.box2 {
+  padding-bottom: 200px;
+}
+
+.box6 {
+  padding-bottom: 0;
+}
+
+.box9 {
+  padding-bottom: 50px;
+  align-self: stretch;
 }

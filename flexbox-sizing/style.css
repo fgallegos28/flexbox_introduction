@@ -34,9 +34,14 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 
 .box {
-  flex:1;
+  flex: 1;/*todos los items se hacen del mismo tamaño*/
 }
 
 .box2 {
-  flex:2;
+  flex: 2; /*tamaño del item - el box2 toma 2 room*/
 }
+
+.box5 {
+  flex: 3;
+}
+

@@ -68,7 +68,34 @@ section, footer {
 
 @media all and (max-width:1000px) {
 
+  .flex-nav li {
+    flex-basis: 100%;
+  }
+  /* Flex Container*/
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Flex Item*/
+  .wrapper > * {
+    order: 9999;
+  }
+
+  .flex-nav {
+    order: 1;
+  }
+
+  .toggleNav {
+    display: block;
+  }
+
+  .flex-nav ul.open{
+    display: flex;
+  }
 }
+
+
 
 
 @media all and (max-width:500px) {
